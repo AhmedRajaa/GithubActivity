@@ -13,7 +13,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-     //save firebase
+     //save firebase'
+        //Ahmed
         val button_Save =findViewById<Button>(R.id.button)
         val persona_name=findViewById<TextView>(R.id.personName)
         val persona_age=findViewById<TextView>(R.id.personAge)
